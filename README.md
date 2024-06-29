@@ -15,4 +15,11 @@ Ci sono inoltre delle sotto-directory, una per ogni punto dell'esercizio, conten
 4. OUTPUT: directory che raccoglie tutti i file di output utilizzati nel notebook
 5. file oggetto, eseguibili e seed.out creati durante la compilazione
 
-Ogni esercizio è compilabile con il comando "make" ed eseguibile con il comando "./main.exe". Fanno eccezione le esercitazioni 4, 6 e 7 nelle quali è stata utilizzato il codice fornito dal professore nella directory "NSL_SIMULATOR": in questi tre casi la compilazione va eseguita all'interno della sotto-directory "SOURCE" e l'eseguibile si chiama "simulator.exe".
+Ogni esercizio è compilabile con il comando `make` ed eseguibile con il comando `./main.exe`. Fanno eccezione le esercitazioni 4, 6 e 7 nelle quali è stata utilizzato il codice fornito dal professore nella directory `NSL_SIMULATOR`: in questi tre casi la compilazione va eseguita all'interno della sotto-directory `SOURCE` e l'eseguibile si chiama `simulator.exe`.
+Anche l'esercizio 10.2 fa eccezione, in questo caso trattandosi di un esercizio riguardanta la parallelizzazione la compilazione e l'esecuzione sono fatte tramite i seguenti due comandi:
+
+`mpicxx -I/home/davide/Simulazione_Numerica/Utilities main.cpp /home/davide/Simulazione_Numerica/Utilities/random.cpp`
+
+`mpiexec -np 16 ./a.out`
+
+dove 16 è il numero di core utilizzati dal codice.
