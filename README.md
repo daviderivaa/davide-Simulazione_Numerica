@@ -1,4 +1,4 @@
-### Laboratorio di Simulazione Numerica
+## Laboratorio di Simulazione Numerica
 
 # Davide Riva
 
