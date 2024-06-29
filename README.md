@@ -1,6 +1,6 @@
 # Laboratorio di Simulazione Numerica
 
-### Davide Riva
+## Davide Riva
 
 Questa repository contiene le esercitazioni riguardanti il corso di Simulazione Numerica tenuto dal prof. Davide Emilio Galli (A.A. 2023-2024).
 
