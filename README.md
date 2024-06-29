@@ -23,3 +23,5 @@ Anche l'esercizio 10.2 fa eccezione, in questo caso trattandosi di un esercizio 
 2. `mpiexec -np 16 ./a.out`
 
 dove 16 è il numero di core utilizzati dal codice. È inoltre necessaria l'installazione del software open-source `mpich` per questa esercitazione.
+
+La directory `Utilities` contiene i file necessari alla generazione di numeri casuali.
