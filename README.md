@@ -18,7 +18,9 @@ Ci sono inoltre delle sotto-directory, una per ogni punto dell'esercizio, conten
 Ogni esercizio è compilabile con il comando `make` ed eseguibile con il comando `./main.exe`. Fanno eccezione le esercitazioni 4, 6 e 7 nelle quali è stata utilizzato il codice fornito dal professore nella directory `NSL_SIMULATOR`: in questi tre casi la compilazione va eseguita all'interno della sotto-directory `SOURCE` e l'eseguibile si chiama `simulator.exe`.
 Anche l'esercizio 10.2 fa eccezione, in questo caso trattandosi di un esercizio riguardanta la parallelizzazione la compilazione e l'esecuzione sono fatte tramite i seguenti due comandi:
 
-1. `mpicxx -I/home/davide/Simulazione_Numerica/Utilities main.cpp /home/davide/Simulazione_Numerica/Utilities/random.cpp`
+1. ```shell
+mpicxx -I/home/davide/Simulazione_Numerica/Utilities main.cpp /home/davide/Simulazione_Numerica/Utilities/random.cpp
+```
 
 2. `mpiexec -np 16 ./a.out`
 
